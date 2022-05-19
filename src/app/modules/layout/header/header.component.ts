@@ -7,22 +7,17 @@ import {Router} from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor(private  readonly router: Router) { }
-
-  ngOnInit(): void {
-
+  menu = [
+    {code: 'home', value:'Acerca'},
+    {code: 'course', value:'Certificados'},
+    {code: 'project', value:'Proyectos'}];
+  constructor(private  readonly router: Router) {
   }
 
-  goCourse(): void {
-    this.router.navigate(['course']);
+  ngOnInit(): void {  }
+
+  navegate(value: string): void {
+    this.router.navigate([`/${value}`]);
   }
 
-  goHome(): void{
-    this.router.navigate(['home']);
-  }
-
-  goProject(): void {
-    this.router.navigate(['project']);
-  }
 }
