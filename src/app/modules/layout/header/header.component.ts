@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'porta-header',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private  readonly router: Router) { }
 
   ngOnInit(): void {
+
   }
 
+  goCourse(): void {
+    this.router.navigate(['course']);
+  }
+
+  goHome(): void{
+    this.router.navigate(['home']);
+  }
+
+  goProject(): void {
+    this.router.navigate(['project']);
+  }
 }
