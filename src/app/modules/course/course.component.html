@@ -1,1 +1,17 @@
-<p>course works!</p>
+<h1 class="text--center fz--xxxl fw--700 c--primary mt-5 pt-5">{{lang.title}}</h1>
+
+<p class="text--center fz--xxl mt-4 mb-5">{{lang.detail}}</p>
+<hr>
+<div class="row">
+  <div *ngFor="let item of lang.CurseArray" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+    <mat-card class="text--center mt-5" >
+      <img mat-card-lg-image [src]="item.image" [alt]="item.alt">
+      <mat-card-header>
+        <mat-card-title class="fw--700 c--primary">{{item.nameCertificate}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-actions class="mb-0 pb-0">
+        <button class="mb-0 pb-0" mat-flat-button color="primary">{{lang.button.seeCertificate}}</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

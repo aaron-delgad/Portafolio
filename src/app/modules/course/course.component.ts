@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {courseLang} from "../../setting/lang/course.lang";
 
 @Component({
   selector: 'porta-course',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./course.component.scss']
 })
 export class CourseComponent implements OnInit {
-
+  lang = courseLang;
   constructor() { }
 
   ngOnInit(): void {

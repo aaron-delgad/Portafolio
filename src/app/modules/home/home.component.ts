@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {homeLang} from "../../setting/lang/home.lang";
 
 @Component({
   selector: 'porta-home',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  lang = homeLang;
   constructor() { }
 
   ngOnInit(): void {
