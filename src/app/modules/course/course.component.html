@@ -1,5 +1,4 @@
-<h1 class="lineSpacing text--center fz--xxxl fw--700 c--primary mt-5 pt-5">{{lang.title}}</h1>
-
+<h1 class="lineSpacing text--center fz--xxxl fw--700 c--primary pt-3">{{lang.title}}</h1>
 <p class="lineSpacing text--center fz--xxl mt-4 mb-5">{{lang.detail}}</p>
 <hr>
 <div class="row">
@@ -10,7 +9,8 @@
         <mat-card-title class="fw--700 c--primary">{{item.nameCertificate}}</mat-card-title>
       </mat-card-header>
       <mat-card-actions class="mb-0 pb-0">
-        <button class="mb-0 pb-0" mat-flat-button color="primary">{{lang.button.seeCertificate}}</button>
+        <a target="_blank" [href]="item.link"><button class="mb-0 pb-0" mat-flat-button color="primary">
+          {{lang.button.seeCertificate}}</button></a>
       </mat-card-actions>
     </mat-card>
   </div>

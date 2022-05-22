@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import {HeaderLang} from "../../../setting/lang/header.lang";
 
 @Component({
   selector: 'porta-header',
@@ -7,10 +8,9 @@ import {Router} from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  menu = [
-    {code: 'home', value:'Acerca'},
-    {code: 'course', value:'Certificados'},
-    {code: 'project', value:'Proyectos'}];
+
+  lang = HeaderLang;
+
   constructor(private  readonly router: Router) {
   }
 
