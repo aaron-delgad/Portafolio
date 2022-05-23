@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {courseLang} from "../../setting/lang/course.lang";
+import {courseLang} from "../../../setting/lang/course.lang";
 
 @Component({
   selector: 'porta-course',

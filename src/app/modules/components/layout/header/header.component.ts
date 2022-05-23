@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {HeaderLang} from "../../../setting/lang/header.lang";
+import {HeaderLang} from "../../../../setting/lang/header.lang";
 
 @Component({
   selector: 'porta-header',

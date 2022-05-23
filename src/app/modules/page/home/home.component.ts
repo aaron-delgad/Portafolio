@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {homeLang} from "../../setting/lang/home.lang";
+import {homeLang} from "../../../setting/lang/home.lang";
 
 @Component({
   selector: 'porta-home',

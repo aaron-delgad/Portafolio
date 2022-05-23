@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FooterLang} from "../../../setting/lang/footer.lang";
+import {FooterLang} from "../../../../setting/lang/footer.lang";
 
 @Component({
   selector: 'porta-footer',

@@ -1,22 +1,19 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {AppComponent} from "./app.component";
+import {RouteConst} from "./setting/constants/route.const";
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'home', pathMatch: 'full'
+    path: RouteConst.clean, redirectTo: RouteConst.page.path, pathMatch: 'full'
   },
   {
-    path: 'home',
-    loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
+    path: RouteConst.page.path,
+    loadChildren: () => import('./modules/page/page.module').then(m => m.PageModule)
   },
   {
-    path: 'course',
-    loadChildren: () => import('./modules/course/course.module').then(m => m.CourseModule)
-  },
-  {
-    path: 'project',
-    loadChildren: () => import('./modules/project/project.module').then(m => m.ProjectModule)
+    path: RouteConst.noFound.path,
+    loadChildren: () => import('./modules/components/no-found/no-found.module').then(m =>m.NoFoundModule)
   }
 ];
 
