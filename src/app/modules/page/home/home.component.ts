@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {homeLang} from "../../../setting/lang/home.lang";
+import {ContactConst} from "../../../setting/constants/contact.const";
 
 @Component({
   selector: 'porta-home',
@@ -8,7 +9,10 @@ import {homeLang} from "../../../setting/lang/home.lang";
 })
 export class HomeComponent implements OnInit {
   lang = homeLang;
-  constructor() { }
+  langContact = ContactConst;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
