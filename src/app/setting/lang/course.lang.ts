@@ -91,5 +91,6 @@ export const courseLang = {
       alt: 'windows.png',
       link: `https://firebasestorage.googleapis.com/v0/b/angular-form-5c520.appspot.com/o/user%2Fdiploma-prework-windows_001.png?alt=media&token=43ef969b-b570-4e61-b895-16d58ef3ab89`
     }
-  ]
+  ],
+
 }
