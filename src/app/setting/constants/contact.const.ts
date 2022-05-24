@@ -25,6 +25,6 @@ export const ContactConst = {
   medioContact: [
     {label: `Celular`, value: ': 984455908'},
     {label: 'Correo', value: ': radees.24.16@gmail.com'}
-                ]
+  ]
 
 }

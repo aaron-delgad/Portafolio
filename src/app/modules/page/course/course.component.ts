@@ -8,7 +8,9 @@ import {courseLang} from "../../../setting/lang/course.lang";
 })
 export class CourseComponent implements OnInit {
   lang = courseLang;
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

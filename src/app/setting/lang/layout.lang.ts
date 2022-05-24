@@ -5,3 +5,8 @@ export const HeaderLang = [
   {code: RouteConst.page.course.fullPath, value:'Certificados'},
   {code: RouteConst.page.project.fullPath, value:'Proyectos'}
 ];
+
+export const FooterLang = {
+  name: 'Raul Aaron Delgado Esparraga',
+  detail: 'Copyright © 2022 - Todos los Derechos Reservados'
+}

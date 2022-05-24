@@ -44,11 +44,9 @@ export const homeLang = {
       detail: '',
       children: [
         {label: 'Bachiller', value: ', en Ingeniería de Sistemas y Telemática'},
-        {label: 'Título Profesional', value: ', en Ingeniería de Sistemas y Telemática'}
+        {label: 'Título', value: ', en Ingeniería de Sistemas y Telemática'}
       ]
-
     }
-
   ]
 
 

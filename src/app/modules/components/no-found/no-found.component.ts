@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NoFoundLang} from "../../../setting/lang/no-found.lang";
 
 @Component({
@@ -8,7 +8,9 @@ import {NoFoundLang} from "../../../setting/lang/no-found.lang";
 })
 export class NoFoundComponent implements OnInit {
   lang = NoFoundLang;
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

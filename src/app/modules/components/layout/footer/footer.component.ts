@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {FooterLang} from "../../../../setting/lang/footer.lang";
+import {Component, OnInit} from '@angular/core';
+import {FooterLang} from "../../../../setting/lang/layout.lang";
 
 @Component({
   selector: 'porta-footer',
@@ -8,7 +8,9 @@ import {FooterLang} from "../../../../setting/lang/footer.lang";
 })
 export class FooterComponent implements OnInit {
   lang = FooterLang;
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

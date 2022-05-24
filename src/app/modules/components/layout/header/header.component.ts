@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {HeaderLang} from "../../../../setting/lang/header.lang";
+import {HeaderLang} from "../../../../setting/lang/layout.lang";
 
 @Component({
   selector: 'porta-header',
@@ -11,10 +11,11 @@ export class HeaderComponent implements OnInit {
 
   lang = HeaderLang;
 
-  constructor(private  readonly router: Router) {
+  constructor(private readonly router: Router) {
   }
 
-  ngOnInit(): void {  }
+  ngOnInit(): void {
+  }
 
   navegate(value: string): void {
     this.router.navigate([`/${value}`]);

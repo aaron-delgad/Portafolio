@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ProjectLang} from "../../../setting/lang/project.lang";
 
 @Component({
   selector: 'porta-project',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-
-  constructor() { }
+  lang = ProjectLang;
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
