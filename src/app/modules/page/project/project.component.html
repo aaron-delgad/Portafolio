@@ -1,19 +1,20 @@
 <div class="row">
   <div *ngFor="let item of lang.data" class="col-12 col-ms-12 col-md-6 col-lg-6 col-xl-6">
-    <mat-card>
+    <mat-card class="mb-5">
       <mat-card-header>
         <mat-card-title class="text--center lineSpacing">
           <h2>{{item.title}}</h2>
         </mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <p class="{{item.color}} c--white fz--xxl ml-5 py-4 px-2 fw--500 lineSpacing br--2 w--80 text--center">
+        <p class="{{item.color}} c--white fz--xl ml-5 py-4 px-2 fw--500 lineSpacing br--2 w--80 text--center">
           {{item.detail}}</p>
         <p class="c--primary fz--xl fw--500 mt-4 text--center">{{lang.post}}</p>
       </mat-card-content>
-      <mat-card-actions class="text--center">
+      <mat-card-actions class="d-flex justify-content-center">
         <a target="_blank" [href]="item.url"><button class="px-3 py-1 fz--xl" mat-flat-button color="primary">
           {{lang.button.excecuteProyect}}</button></a>
+        <a [href]="item.github"><img class="w--40 ml-4" [src]="lang.gitHub.image" [alt]="lang.gitHub.alt"></a>
       </mat-card-actions>
     </mat-card>
   </div>
