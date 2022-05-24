@@ -35,14 +35,14 @@ export const ProjectLang = {
     },
     {
       title: 'Implementando una PWA (Progressive Web App)',
-      detail: `Se desarrollo en Angular version 13, generando el boton instalar para Desktop, Android e IOS,
-      además se configuró el service worker y se implementó la funcionalidad para enviar actualizaciones`,
+      detail: `Se desarrollo en Angular version 13, botón de instalar para Desktop, Android e IOS,
+      se configuró el service worker e implementó la funcionalidad para enviar actualizaciones`,
       color: 'bg--primary-light',
       url: 'https://angular-pwa-f00d0.firebaseapp.com/product',
       github: 'https://github.com/aaron-delgad/My_first_PWA'
     },
     {
-      title: 'Desarrollado aplicando JavaScript, HTML y CSS puro.',
+      title: 'Desarrollado aplicando JavaScript, HTML y CSS.',
       detail: 'Calcula el área y perímetro de un Triángulo, Círculo y Cuadrado',
       color: 'bg--accent',
       url: 'https://aaron-delgad.github.io/Curso-Practico-JavaScript/',
