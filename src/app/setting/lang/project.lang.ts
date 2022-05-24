@@ -3,7 +3,7 @@ import {ButtonLang} from "./button.lang";
 export const ProjectLang = {
   data: [
     {
-      title: 'Proyecto desarollado aplicando JavaScript, HTML y CSS puro.',
+      title: 'Proyecto desarrollado aplicando JavaScript, HTML y CSS puro.',
       detail: 'Calcula el área y perímetro de un Triángulo, Círculo y Cuadrado',
       color: 'bg--accent',
       url: 'https://aaron-delgad.github.io/Curso-Practico-JavaScript/',
@@ -13,7 +13,7 @@ export const ProjectLang = {
       title: 'Proyecto desarrollado implementando HTML y CSS puro',
       detail: `Solo se ha desarrollado las interfaces gráficas de las diferentes páginas
       que involucra una E-Commerce`,
-      color: 'bg--accent',
+      color: 'bg--primary-light',
       url: 'https://joyful-sorbet-8bf8d5.netlify.app/',
       github: 'https://github.com/aaron-delgad/E-commerce-Frontends'
     },
