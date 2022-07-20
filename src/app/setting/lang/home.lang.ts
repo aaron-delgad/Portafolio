@@ -28,15 +28,18 @@ export const homeLang = {
         {label: '', value: 'CSS'},
         {label: '', value: 'Angular'},
         {label: '', value: 'Git'},
+        {label: '', value: 'Vue'},
         {label: '', value: 'GitHub'},
         {label: '', value: 'gitLab'},
+        {label: '', value: 'Hubstaff'},
         {label: '', value: 'Botstrap'},
         {label: '', value: 'Angular Material'},
         {label: '', value: 'Jira'},
         {label: '', value: 'IONIC'},
         {label: '', value: 'Pruebas'},
         {label: '', value: 'Sonarqube'},
-        {label: '', value: 'Husky'},
+        {label: '', value: 'Husky/Lint-staged'},
+        {label: '', value: 'Wordpress'}
       ]
     },
     {

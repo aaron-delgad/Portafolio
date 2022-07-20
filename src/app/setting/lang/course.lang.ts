@@ -74,6 +74,24 @@ export const courseLang = {
       link: `https://firebasestorage.googleapis.com/v0/b/angular-form-5c520.appspot.com/o/user%2Fdiploma-git-github_001.png?alt=media&token=07420a9f-a820-4188-9762-c60f5e4242c0`
     },
     {
+      nameCertificate: 'Curso de Ionic',
+      image: './assets/image/7_diploma-ionic-avanzado_001.png',
+      alt: 'windows.png',
+      link: `https://firebasestorage.googleapis.com/v0/b/angular-form-5c520.appspot.com/o/user%2F7_diploma-ionic-avanzado_001.png?alt=media&token=a0fd63c7-ec5c-4e94-ba42-f6b1ed8719ec`
+    },
+    {
+      nameCertificate: 'Curso de Práctico de Wordpress',
+      image: './assets/image/Curso-práctico-wordpress_001.png',
+      alt: 'windows.png',
+      link: `https://firebasestorage.googleapis.com/v0/b/angular-form-5c520.appspot.com/o/user%2FCurso-pr%C3%A1ctico-wordpress_001.png?alt=media&token=7efeab89-008a-4b61-adf7-5b69744ece11`
+    },
+    {
+      nameCertificate: 'Curso de Profesional de Wordpress',
+      image: './assets/image/Curso-Profesional-de-wordpress.png',
+      alt: 'windows.png',
+      link: `https://firebasestorage.googleapis.com/v0/b/angular-form-5c520.appspot.com/o/user%2FCurso-Profesional-de-wordpress.png?alt=media&token=61dbb455-05ff-4151-b0fa-2282971a5a65`
+    },
+    {
       nameCertificate: 'Curso de ECMAScript 6+',
       image: './assets/image/diploma-curso de ecmascript-6+_001.png',
       alt: 'ecmascript.png',
